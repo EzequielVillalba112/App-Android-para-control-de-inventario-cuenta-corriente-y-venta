@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFD8D8"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".ListaCuentaCorriente">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarCuentaCorriente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <SearchView
+        android:id="@+id/txtBuscarCli"
+        style="@android:style/Widget.Material.SearchView"
+        android:layout_width="413dp"
+        android:layout_height="50dp"
+        android:background="@color/colorGray1"
+        android:clickable="true"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:focusable="true"
+        android:iconifiedByDefault="false"
+        android:queryHint="@string/txtBuscarCliente"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="horizontal|vertical"
+        android:showDividers="middle|beginning|end|none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </SearchView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listaClienteCC"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Mercado/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3828125" />
+        <entry key="..\:/Mercado/app/src/main/res/drawable/ic_add_photo_transpa.xml" value="0.3828125" />
+        <entry key="..\:/Mercado/app/src/main/res/drawable/shape_rectangular.xml" value="0.14537037037037037" />
+        <entry key="..\:/Mercado/app/src/main/res/layout/activity_agregar_cliente.xml" value="0.33" />
+        <entry key="..\:/Mercado/app/src/main/res/layout/activity_agregar_producto.xml" value="0.33" />
+        <entry key="..\:/Mercado/app/src/main/res/layout/activity_cliente.xml" value="0.3663949275362319" />
+        <entry key="..\:/Mercado/app/src/main/res/layout/activity_listar_cliente.xml" value="0.33" />
+        <entry key="..\:/Mercado/app/src/main/res/layout/activity_listar_producto.xml" value="0.36666666666666664" />
+        <entry key="..\:/Mercado/app/src/main/res/layout/activity_listar_productos.xml" value="0.27932960893854747" />
+        <entry key="..\:/Mercado/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/Mercado/app/src/main/res/layout/activity_producto.xml" value="0.36666666666666664" />
+        <entry key="..\:/Mercado/app/src/main/res/layout/activity_ver_cliente.xml" value="0.33" />
+        <entry key="..\:/Mercado/app/src/main/res/layout/activity_ver_producto.xml" value="0.25" />
+        <entry key="..\:/Mercado/app/src/main/res/layout/content_lista_producto.xml" value="0.36666666666666664" />
+        <entry key="..\:/Mercado/app/src/main/res/layout/fondotop.xml" value="0.36666666666666664" />
+        <entry key="..\:/Mercado/app/src/main/res/layout/lista_item_cliente.xml" value="0.33" />
+        <entry key="..\:/Mercado/app/src/main/res/layout/lista_item_producto.xml" value="0.33" />
+        <entry key="..\:/Mercado/app/src/main/res/menu/menu_producto.xml" value="0.25" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/activity_agregar_cliente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/activity_agregar_producto.xml" value="0.351010101010101" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/activity_agregar_usuario.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/activity_carro_compra.xml" value="0.25" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/activity_cliente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/activity_cliente_cu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/activity_cuenta_corriente.xml" value="0.25" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/activity_detalle_venta.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/activity_lista_cuenta_corriente.xml" value="0.35260416666666666" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/activity_listar_cliente.xml" value="0.25" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/activity_listar_devoluciones.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/activity_listar_productos.xml" value="0.25" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/activity_listar_usuarios.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/activity_listar_ventas.xml" value="0.33" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/activity_producto.xml" value="0.25" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/activity_producto_vender.xml" value="0.33" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/activity_registros.xml" value="0.33" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/activity_splash.xml" value="0.33" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/activity_usuario.xml" value="0.33" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/activity_vender.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/activity_ver_cliente.xml" value="0.18" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/activity_ver_producto.xml" value="0.25" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/activity_ver_usuario.xml" value="0.2609375" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/item_carro_compra.xml" value="0.33" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/item_clien_autocom.xml" value="0.25" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/item_cliente_cuenta_corriente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/item_cuenta_corriente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/item_detalle_venta.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/item_devolucion.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/item_lista_usuario.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/item_lista_venta.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/item_prod_bus.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/item_prod_venta.xml" value="0.33" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/lista_item_cliente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/layout/lista_item_producto.xml" value="0.33" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/menu/menu1.xml" value="0.1" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/menu/menu_general.xml" value="0.1" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/menu/menu_producto.xml" value="0.1" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22552083333333334" />
+        <entry key="..\:/Practica Mercado/Mercado/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.27760416666666665" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/activity_agregar_cliente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/activity_agregar_producto.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/activity_agregar_usuario.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/activity_carro_compra.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/activity_cliente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/activity_cuenta_corriente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/activity_detalle_venta.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/activity_lista_cuenta_corriente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/activity_listar_cliente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/activity_listar_devoluciones.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/activity_listar_productos.xml" value="0.20364583333333333" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/activity_listar_usuarios.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/activity_producto.xml" value="0.20364583333333333" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/activity_producto_vender.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/activity_registros.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/activity_usuario.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/activity_ver_cliente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/activity_ver_producto.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/activity_ver_usuario.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/item_carro_compra.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/item_clien_autocom.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/item_cuenta_corriente.xml" value="0.20364583333333333" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/item_detalle_venta.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/item_prod_venta.xml" value="0.36666666666666664" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/layout/lista_item_producto.xml" value="0.33" />
+        <entry key="..\:/Practica Mercado/Prueba Imagen Mercado/Mercado/app/src/main/res/menu/menu1.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/activity_agregar_cliente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/activity_agregar_producto.xml" value="0.20364583333333333" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/activity_agregar_usuario.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/activity_carro_compra.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/activity_cliente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/activity_cuenta_corriente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/activity_detalle_venta.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/activity_lista_cuenta_corriente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/activity_listar_cliente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/activity_listar_devoluciones.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/activity_listar_productos.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/activity_listar_usuarios.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/activity_listar_ventas.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/activity_producto.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/activity_producto_vender.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/activity_registros.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/activity_usuario.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/activity_ver_cliente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/activity_ver_producto.xml" value="0.20364583333333333" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/activity_ver_usuario.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/item_carro_compra.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/item_clien_autocom.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/item_cuenta_corriente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/item_detalle_venta.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/item_devolucion.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/item_lista_usuario.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/item_lista_venta.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/item_prod_venta.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/lista_item_cliente.xml" value="0.36666666666666664" />
+        <entry key="..\:/Seminario/Practica Mercado/Prueba final/Mercado/app/src/main/res/layout/lista_item_producto.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

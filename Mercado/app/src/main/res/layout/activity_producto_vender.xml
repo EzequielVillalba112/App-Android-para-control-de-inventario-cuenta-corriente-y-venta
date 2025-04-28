@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3CCCC"
+    android:orientation="vertical"
+    tools:context=".VistaVender.ProductoVender"
+    android:windowSoftInputMode="adjustResize"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBarProductoVender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Nombre:"
+            android:textColor="#3D9140"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:text="Cantidad:"
+            android:textColor="#3D9140"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precio:"
+            android:textColor="#3D9140"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtCodBarraVenta"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background"
+            android:contextClickable="false"
+            android:cursorVisible="false"
+            android:ems="10"
+            android:enabled="false"
+            android:includeFontPadding="false"
+            android:inputType="textPersonName"
+            android:linksClickable="false"
+            android:longClickable="false"
+            android:minHeight="48dp"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/txtCantidadProduc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/txtPrecioArticulo"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background"
+            android:clickable="false"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/btnCodBarraVenta"
+            android:layout_width="51dp"
+            android:layout_height="48dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/scanner"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageButton
+            android:id="@+id/btnAgregarCarrito"
+            android:layout_width="168dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/anadir_producto"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+    <SearchView
+        android:id="@+id/txtBuscarProduxtoVenta"
+        style="@android:style/Widget.Material.SearchView"
+        android:layout_width="413dp"
+        android:layout_height="50dp"
+        android:background="@color/colorGray1"
+        android:clickable="true"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:focusable="true"
+        android:iconifiedByDefault="false"
+        android:queryHint="@string/txtBuscar"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="horizontal|vertical"
+        android:showDividers="middle|beginning|end|none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </SearchView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recicleProducto"
+        android:layout_width="match_parent"
+        android:layout_height="433dp"
+        android:animateLayoutChanges="false"
+        android:background="#C3C2C2"
+        android:clickable="false"
+        android:clipChildren="true"
+        android:clipToPadding="true"
+        android:contextClickable="true" />
+
+    <Button
+        android:id="@+id/btnCarritoProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#03A9F4"
+        android:minHeight="48dp"
+        android:text="Ver Carrito"
+        android:textColor="#FFFEFE"
+        app:cornerRadius="20dp"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="171dp" />
+</LinearLayout>

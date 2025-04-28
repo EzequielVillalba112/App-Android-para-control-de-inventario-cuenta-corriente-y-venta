@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFD8D8"
+    tools:context=".Registros">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarRegistros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnRegistroVenta"
+        android:layout_width="147dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#9C9B9B"
+        android:onClick="ListaVentas"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarRegistros"
+        app:srcCompat="@drawable/cajero"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/btnRegistoCC"
+        android:layout_width="147dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#9C9B9B"
+        android:onClick="ListaCC"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.844"
+        app:layout_constraintStart_toEndOf="@+id/btnRegistroVenta"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarRegistros"
+        app:srcCompat="@drawable/registrarse"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="144dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="24dp"
+        android:text="REGISTRO VENTAS"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegistroVenta" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="149dp"
+        android:layout_height="46dp"
+        android:text="REGISTRO CUENTA CORRIENTE"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.702"
+        app:layout_constraintStart_toEndOf="@+id/textView21"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegistoCC" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="147dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#9C9B9B"
+        android:onClick="LisaDev"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        app:srcCompat="@drawable/devolucion_lis"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="28dp"
+        android:text="REGISTRO DEVOLUCION"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

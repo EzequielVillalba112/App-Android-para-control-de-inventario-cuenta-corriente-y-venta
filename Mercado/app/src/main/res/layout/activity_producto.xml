@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFD8D8"
+    tools:context=".Producto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnAgregarProducto"
+        android:layout_width="147dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:adjustViewBounds="false"
+        android:backgroundTint="#9C9B9B"
+        android:baselineAlignBottom="true"
+        android:onClick="AgregarProducto"
+        android:scaleType="fitCenter"
+        app:circularflow_radiusInDP="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarProducto"
+        app:srcCompat="@drawable/anadir_producto"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/btnListarProducto"
+        android:layout_width="147dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#9C9B9B"
+        android:onClick="ListarProducto"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintStart_toEndOf="@+id/btnAgregarProducto"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarProducto"
+        app:srcCompat="@drawable/lista_producto"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="154dp"
+        android:layout_height="51dp"
+        android:text="AGREGAR PRODUCTO"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView41"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAgregarProducto" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="149dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="36dp"
+        android:text="LISTA DE PRODUCTO"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnListarProducto" />
+</androidx.constraintlayout.widget.ConstraintLayout>

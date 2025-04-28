@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFD8D8"
+    tools:context=".Cliente">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnAgregarCliente"
+        android:layout_width="147dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#9C9B9B"
+        android:onClick="AgregarCliente"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarCliente"
+        app:srcCompat="@drawable/agregar_cliente"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/btnListarCliente"
+        android:layout_width="147dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#9C9B9B"
+        android:onClick="ListarCliente"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toEndOf="@+id/btnAgregarCliente"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarCliente"
+        app:srcCompat="@drawable/lista_cliente"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="150dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="28dp"
+        android:text="AGREGAR CLIENTE CC"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView44"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAgregarCliente" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="147dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="24dp"
+        android:text="LISTA DE CLIENTE CC"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnListarCliente" />
+</androidx.constraintlayout.widget.ConstraintLayout>

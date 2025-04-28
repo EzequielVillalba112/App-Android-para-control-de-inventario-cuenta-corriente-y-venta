@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7A7979"
+    android:orientation="vertical"
+    tools:context=".ListarVentas">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarRegistrVentas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <SearchView
+            android:id="@+id/txtBuscarVenta"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorGray1"
+            android:clickable="true"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:focusable="true"
+            android:iconifiedByDefault="false"
+            android:queryHint="Buscar por fecha"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbars="horizontal|vertical"
+            android:showDividers="middle|beginning|end|none"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listaVentas"
+        android:layout_width="match_parent"
+        android:layout_height="526dp"
+        android:layout_marginTop="16dp"
+        android:background="#B5B5B5"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="76dp" />
+</LinearLayout>

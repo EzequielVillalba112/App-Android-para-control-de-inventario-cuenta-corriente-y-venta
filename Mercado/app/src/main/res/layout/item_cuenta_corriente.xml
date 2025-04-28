@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="#03A9F4"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="2dp"
+    app:cardMaxElevation="2dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="119dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="62dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="FECHA:"
+                android:textAlignment="textEnd"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtFechaCC"
+                android:layout_width="223dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@android:drawable/editbox_background"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/btnEliminarPro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:backgroundTint="#FFFDFD"
+                app:srcCompat="@drawable/ic_baseline_delete_forever_24"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:text="PRODUCTO:"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="99dp"
+                android:layout_height="wrap_content"
+                android:text="CANTIDAD:"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TOTAL:"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="375dp"
+            android:layout_height="47dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtNomProdCC"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@android:drawable/editbox_background"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtCantidadCC"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtTotalCC"
+                android:layout_width="111dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:background="@android:drawable/editbox_background"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

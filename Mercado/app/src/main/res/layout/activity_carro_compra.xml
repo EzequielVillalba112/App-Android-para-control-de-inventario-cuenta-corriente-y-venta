@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#575757"
+    android:orientation="vertical"
+    tools:context=".VistaVender.CarroCompra">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="FECHA:"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtFecha"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="date"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="      Busque el cliente por el nombre"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <AutoCompleteTextView
+            android:id="@+id/txtAutoCompl"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:background="@android:drawable/editbox_background"
+            android:minHeight="48dp"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:text="NOMBRE:"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:text="APELLIDO:"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:text="LIMITE:"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtPru"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:background="@android:drawable/editbox_background"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/txtApe"
+            android:layout_width="107dp"
+            android:layout_height="38dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColor="#040404"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/txtLimit"
+            android:layout_width="93dp"
+            android:layout_height="38dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/editbox_background"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/btnRemove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#DCDCDC"
+            android:minHeight="48dp"
+            app:srcCompat="@drawable/ic_baseline_person_remove_24"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/reclirCarrito"
+                android:layout_width="match_parent"
+                android:layout_height="397dp"
+                android:background="#B5B5B5">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <Button
+                android:id="@+id/btnProductoVolver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#4CAF50"
+                android:minHeight="48dp"
+                android:text="VOLVER A PRODUCTOS"
+                android:textColor="#FFFFFF"
+                app:cornerRadius="20dp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:text="TOTAL:  "
+                    android:textAlignment="textEnd"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtTotal"
+                    android:layout_width="127dp"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/editbox_background"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:inputType="numberDecimal"
+                    android:minHeight="48dp"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnDevolucion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:backgroundTint="#FF0000"
+                    android:text="DEVOLUCION"
+                    android:textColor="#FFFFFF"
+                    app:cornerRadius="20dp" />
+
+                <Button
+                    android:id="@+id/btnVender"
+                    android:layout_width="221dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:backgroundTint="#2196F3"
+                    android:text="VENDER"
+                    android:textColor="#FFFFFF"
+                    app:cornerRadius="20dp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

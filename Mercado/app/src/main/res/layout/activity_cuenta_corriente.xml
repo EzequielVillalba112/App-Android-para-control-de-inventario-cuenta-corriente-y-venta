@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#575757"
+    android:orientation="vertical"
+    tools:context=".CuentaCorriente">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarDetalleCC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/lsitaCC"
+                android:layout_width="match_parent"
+                android:layout_height="476dp"
+                android:background="#777777" />
+
+            <LinearLayout
+                android:layout_width="355dp"
+                android:layout_height="49dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="206dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="TOTAL:       "
+                    android:textAlignment="viewEnd"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtTotalCuentaCorriente"
+                    android:layout_width="150dp"
+                    android:layout_height="48dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:textAlignment="center"
+                    android:textColor="#020202"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="353dp"
+                android:layout_height="51dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="278dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="ENTREGA:     "
+                    android:textAlignment="textEnd"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtEntrega"
+                    android:layout_width="148dp"
+                    android:layout_height="48dp"
+                    android:background="@android:drawable/editbox_background"
+                    android:inputType="numberSigned"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="352dp"
+                android:layout_height="46dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="205dp"
+                    android:layout_height="wrap_content"
+                    android:text="VUELTO:      "
+                    android:textAlignment="textEnd"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtVuelto"
+                    android:layout_width="126dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:drawable/editbox_background"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:inputType="numberDecimal"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnCobrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:backgroundTint="#4CAF50"
+                android:minHeight="48dp"
+                android:text="COBRAR"
+                android:textColor="#FFFFFF"
+                app:cornerRadius="20dp"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

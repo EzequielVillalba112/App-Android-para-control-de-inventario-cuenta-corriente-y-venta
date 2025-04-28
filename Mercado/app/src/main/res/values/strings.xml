@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">El Rojo</string>
+    <string name="txtProducto">Producto</string>
+    <string name="txtCargaProducto">Cargar Producto</string>
+    <string name="txtCodProducto">Cod. de barra: </string>
+    <string name="txtNombreProducto">Nombre de producto: </string>
+    <string name="txtPrecio">Precio: </string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="txtCargarImagen">Añadir Imagen:</string>
+    <string name="txtListaProducto">Listar Productos</string>
+    <string name="title_activity_lista_producto">ListaProducto</string>
+    <string name="btnEditar">Editar</string>
+    <string name="txtNombre">NOMBRE:</string>
+    <string name="txtPRE">PRECIO($):</string>
+    <string name="btnBorrar">Borrar</string>
+    <string name="txtProductoAct">Productos Activados</string>
+    <string name="txtProductoDesac">Productos Desactivado</string>
+    <string name="btnListar">Listar</string>
+    <string name="txtBuscar">Buscar por el nombre del Producto</string>
+    <string name="txtNombreCliente">Nombre de cliente:</string>
+    <string name="txtApellidoCliente">Apellido de cliente:</string>
+    <string name="txtLimiteCliente">Limite de saldo:</string>
+    <string name="txtBuscarCliente">Buscar por el nombre del Cliente</string>
+    <string name="txtClienteAct">Cliente Activados</string>
+    <string name="txtClienteDesac">Cliente Desactivado</string>
+    <string name="txtApellido">APELLIDO: </string>
+    <string name="TXTcANTIDAD">CANTIDAD:</string>
+    <string name="TXTTOTAL">TOTAL:</string>
+
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_ver_cliente">VerCliente</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
